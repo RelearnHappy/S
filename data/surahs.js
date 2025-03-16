@@ -12,7 +12,7 @@ export const surahs = [
       name: "Al-Alaq",
       englishName: "The Clot",
       numberOfAyahs: 19,
-      youtubeId: "u7pnPt6mpUU" // Example YouTube ID
+      youtubeId: "u7pnPt6mpUU" // Example YouTube ID for Al-Baqara recitation
     },
     {
       id: 3,
@@ -23,15 +23,15 @@ export const surahs = [
     },
     {
       id: 4,
-      name: "JUZ 29",
-      englishName: "jUZ 29",
-      numberOfAyahs: ,
+      name: "Juz 29",
+      englishName: "Juz 29",
+      numberOfAyahs: 000,
       youtubeId: "DUsmoihR90o" // Example YouTube ID
     },
     {
       id: 5,
-      name: "jUZ 30",
-      englishName:: "JUZ 30",
+      name: "Juz 30",
+      englishName: "Juz 30",
       numberOfAyahs: 000,
       youtubeId: "4EOokEXW604" // Example YouTube ID
     }
