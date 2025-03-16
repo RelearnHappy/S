@@ -1,3 +1,4 @@
+// data/surahs.js
 export const surahs = [
     {
       id: 1,
