@@ -2,10 +2,10 @@
 export const surahs = [
     {
       id: 1,
-      name: "Al-Fatiha",
+      name: "Al-Fatihah",
       englishName: "The Opening",
       numberOfAyahs: 7,
-      youtubeId: "MJo8Nfd5rQU" // Example YouTube ID for Al-Fatiha recitation
+      youtubeId: "qCQOhiDAanQ" // Example YouTube ID for Al-Fatiha recitation
     },
     {
       id: 2,
