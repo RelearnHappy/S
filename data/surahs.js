@@ -24,15 +24,15 @@ export const surahs = [
     {
       id: 4,
       name: "JUZ 29",
-      englishName: " ",
-      numberOfAyahs:   ,
+      englishName: "jUZ 29",
+      numberOfAyahs: ,
       youtubeId: "DUsmoihR90o" // Example YouTube ID
     },
     {
       id: 5,
       name: "jUZ 30",
-      englishName: " ",
-      numberOfAyahs:   ,
+      englishName:: "JUZ 30",
+      numberOfAyahs: 000,
       youtubeId: "4EOokEXW604" // Example YouTube ID
     }
     // Add more surahs as needed
