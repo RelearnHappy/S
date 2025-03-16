@@ -1,0 +1,165 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1rem 2rem;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo h1 {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title span {
+  color: #0070f3;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.surahList {
+  margin: 2rem 0;
+}
+
+.surahList h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.surahList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.surahItem {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.surahItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.surahNumber {
+  font-weight: bold;
+  margin-right: 1rem;
+  width: 30px;
+}
+
+.surahName {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.surahEnglishName {
+  color: #666;
+  margin-right: 1rem;
+}
+
+.surahAyahs {
+  margin-left: auto;
+  color: #0070f3;
+}
+
+.surahHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.surahHeader h1 {
+  margin-bottom: 0.5rem;
+}
+
+.surahHeader h2 {
+  margin-top: 0;
+  color: #666;
+}
+
+.playerContainer {
+  margin: 2rem 0;
+}
+
+.videoResponsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.videoResponsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.backToHome {
+  margin-top: 2rem;
+}
+
+.backToHome span {
+  display: inline-block;
+  background-color: #0070f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.backToHome span:hover {
+  background-color: #0051a2;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+}
