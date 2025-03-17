@@ -1,4 +1,3 @@
-// 7. Modifikasi: pages/surah/[id].js
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
