@@ -1,4 +1,3 @@
-// 3. Buat komponen baru: components/ThemeToggle.js
 import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import styles from '../styles/Home.module.css';
