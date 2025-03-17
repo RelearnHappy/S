@@ -1,3 +1,6 @@
+/* styles/Home.module.css */
+
+/* Gaya Umum */
 .container {
   min-height: 100vh;
   display: flex;
@@ -162,4 +165,36 @@
   align-items: center;
   height: 100vh;
   font-size: 1.5rem;
+}
+
+/* Gaya Tema */
+body.light .container {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark .container {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark .surahItem {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark .surahEnglishName {
+  color: #ccc;
+}
+
+body.dark .surahAyahs {
+  color: #00aaff;
+}
+
+body.dark .backToHome span {
+  background-color: #00aaff;
+}
+
+body.dark .backToHome span:hover {
+  background-color: #0077cc;
 }
