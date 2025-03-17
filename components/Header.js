@@ -1,8 +1,9 @@
 // components/Header.js
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
+import ThemeToggle from './ThemeToggle'; // Impor ThemeToggle
 
-export default function Header() {
+export default function Header({ theme, setTheme }) { // Terima theme dan setTheme sebagai props
   return (
     <header className={styles.header}>
       <Link href="/">
@@ -11,6 +12,7 @@ export default function Header() {
           <h1>Qur'an Recitations</h1>
         </div>
       </Link>
+      <ThemeToggle theme={theme} setTheme={setTheme} /> {/* Tambahkan ThemeToggle */}
     </header>
   );
 }
