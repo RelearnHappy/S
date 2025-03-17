@@ -1,4 +1,3 @@
-// 5. Modifikasi: components/SurahList.js
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { surahs } from '../data/surahs';
