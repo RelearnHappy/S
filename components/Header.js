@@ -1,4 +1,3 @@
-// 4. Modifikasi: components/Header.js
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import styles from '../styles/Home.module.css';
