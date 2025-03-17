@@ -1,7 +1,7 @@
 // components/Header.js
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import ThemeToggle from './ThemeToggle'; // Impor ThemeToggle
+import ThemeToggle from './ThemeToggle.jsx'; // Impor ThemeToggle
 
 export default function Header({ theme, setTheme }) { // Terima theme dan setTheme sebagai props
   return (
