@@ -53,7 +53,7 @@ export default function SurahList() {
                 <span className={styles.surahNumber}>{surah.id}.</span>
                 <span className={styles.surahName}>{surah.name}</span>
                 <span className={styles.surahEnglishName}>({surah.englishName})</span>
-                <span className={styles.surahAyahs}>{surah.numberOfAyahs} verses</span>
+                <span className={styles.surahAyahs}>{surah.numberOfAyahs} Ayahs</span>
               </div>
             </Link>
           </motion.li>
