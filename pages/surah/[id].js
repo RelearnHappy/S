@@ -62,7 +62,7 @@ export default function SurahPage() {
         >
           <h1>{surah.name}</h1>
           <h2>{surah.englishName}</h2>
-          <p>{surah.numberOfAyahs} verses</p>
+          <p>{surah.numberOfAyahs} Ayahs</p>
         </motion.div>
 
         <motion.div
